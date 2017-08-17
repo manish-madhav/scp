@@ -1,0 +1,7 @@
+role p1942828411trial.hcpbook.bookstore.storefront.roles::display_access {
+  application privilege: p1942828411trial.hcpbook.bookstore.storefront::Basic;
+  catalog sql object "_SYS_BIC"."p1942828411trial.hcpbook.bookstore.storefront.model::Bookstore.Books": SELECT;
+  catalog sql object "_SYS_BIC"."p1942828411trial.hcpbook.bookstore.storefront.model::Bookstore.Authors": SELECT;
+  catalog sql object "_SYS_BIC"."p1942828411trial.hcpbook.bookstore.storefront.model::Bookstore.BookAuthors": SELECT;
+  catalog sql object "_SYS_BIC"."p1942828411trial.hcpbook.bookstore.storefront.model::Bookstore.BookAuthorsView": SELECT;
+}
